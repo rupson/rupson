@@ -1,6 +1,4 @@
-### Hi there 👋
-
-Here are some ideas to get you started:
+### Welcome 👋
 
 - 🔭 I’m currently working on this github profile!
 - 🌱 I’m currently learning.
