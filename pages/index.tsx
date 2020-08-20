@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { theme } from '../layout/theme';
+import CurrentlyFeeling from 'components/CurrentFeeling';
 
 const Title = styled.h1`
     text-align: center;
@@ -10,13 +11,13 @@ const Title = styled.h1`
     padding-top: 0.67em;
 `;
 
-const Card = styled.div`
+export const Card = styled.div`
     padding: 15px 0 0 0;
     border: 1px solid black;
     border-radius: 20px;
 `;
 
-const CardTitle = styled.h3`
+export const CardTitle = styled.h3`
     margin: 0 0 12px 0;
     padding: 0 0 0 10%;
 `;
@@ -131,6 +132,11 @@ const LandingPage: NextPage = () => {
                     </CardBody>
                 </Card>
             </CardsContainer>
+            <CurrentlyFeeling
+                srcUrl={
+                    'https://media1.tenor.com/images/4f06417a01a19263854b76ab2dc36612/tenor.gif'
+                }
+            />
         </>
     );
 };
