@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import { theme } from '../layout/theme';
 import CurrentlyFeeling from 'components/CurrentFeeling';
+import mediaSources from 'mediaSources';
 
 const Title = styled.h1`
     text-align: center;
@@ -132,11 +133,7 @@ const LandingPage: NextPage = () => {
                     </CardBody>
                 </Card>
             </CardsContainer>
-            <CurrentlyFeeling
-                srcUrl={
-                    'https://media1.tenor.com/images/4f06417a01a19263854b76ab2dc36612/tenor.gif'
-                }
-            />
+            <CurrentlyFeeling srcUrl={mediaSources.toad_gif} />
         </>
     );
 };
